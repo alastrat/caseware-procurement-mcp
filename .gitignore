@@ -1,0 +1,18 @@
+# Generated pipeline artifacts (regenerable via `make build`)
+artifacts/
+*.sqlite
+*.sqlite-*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS
+.DS_Store
